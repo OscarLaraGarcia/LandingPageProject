@@ -1,12 +1,52 @@
 body {
     display: flex;
     flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .header {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
+    padding: 0 100px 0 100px;
+    align-items: center;
+}
+
+.top-section {
+    display: flex;
+    background-color: #1F2937;
+    padding: 0 100px 50px 100px;
+}
+
+.button {
+    background-color: #3882F6;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button:hover {
+    background-color: #609bfa;
+}
+
+.left-panel {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 20px;
+    gap: 30px;
+}
+
+.right-panel {
+    display: flex;
+    flex: 1;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
 }
 
 .white-text {
