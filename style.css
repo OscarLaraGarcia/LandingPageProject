@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
+    /*no se como hacer que el fondo de los laterales sea del mismo color que en la imagen*/
 }
 
 .header {
@@ -47,9 +48,73 @@ body {
     background-color: white;
     justify-content: center;
     align-items: center;
+    background-color: rgb(86, 86, 92);
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 10px;
+}
+
+.boxes {
+    /*imagino que las cajas azules se hacen aqui pero no se hacerlas*/
+    display: flex;
+    justify-content: center;
+    /*Esto no esta centrandose por algun motivo*/
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 200px;
+    background-color: #E5E7EB;
+    align-items: end;
+}
+
+.god-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 10;
+    color: #1F2937;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: center;
+    padding: 0 80px 0 80px;
+}
+
+.blue-banner {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    gap: 100px;
+    margin-top: 80px;
+    border-radius: 8px;
+    padding: 30px 60px;
+}
+
+.white-border {
+    background-color: #3882F6;
+    border: #E5E7EB;
+    border-color: #E5E7EB;
+    /*no se ve el color del borde y no se por que hulio*/
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
 }
 
 .white-text {
     color: white;
+}
+
+.black-text {
+    color: black;
 }
 
