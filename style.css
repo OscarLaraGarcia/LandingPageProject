@@ -1,7 +1,6 @@
 body {
     display: flex;
     flex-direction: column;
-    max-width: 1200px;
     margin: 0 auto;
     /*no se como hacer que el fondo de los laterales sea del mismo color que en la imagen*/
 }
@@ -10,14 +9,24 @@ body {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
-    padding: 0 100px 0 100px;
+    padding: 0 30%;
     align-items: center;
 }
 
 .top-section {
     display: flex;
     background-color: #1F2937;
-    padding: 0 100px 50px 100px;
+    padding: 5% 30% 5% 30%;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.links {
+    display: flex;
+    gap: 20px;
 }
 
 .button {
@@ -29,7 +38,7 @@ body {
     user-select: none;
 }
 
-.button:hover {
+.button:hover  {
     background-color: #609bfa;
 }
 
@@ -39,7 +48,6 @@ body {
     flex-direction: column;
     width: 50%;
     padding-right: 20px;
-    gap: 30px;
 }
 
 .right-panel {
@@ -48,7 +56,7 @@ body {
     background-color: white;
     justify-content: center;
     align-items: center;
-    background-color: rgb(86, 86, 92);
+    background-color: rgb(162, 162, 170);
 }
 
 .information {
@@ -56,22 +64,46 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    padding-top: 10px;
+    padding: 10px 30%;
+}
+
+.blue-border {
+    border: 3px solid  #3882F6;
+    border-radius: 8px;
+    aspect-ratio: 1/1;
+    width: 100%;
 }
 
 .boxes {
-    /*imagino que las cajas azules se hacen aqui pero no se hacerlas*/
+
     display: flex;
     justify-content: center;
+    gap: 40px;
     /*Esto no esta centrandose por algun motivo*/
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
-    padding: 60px 200px;
+    padding: 4% 30%;
     background-color: #E5E7EB;
-    align-items: end;
+}
+
+.god-name {
+    display: flex;
+    justify-content: end;
+    padding: 0 80px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
 }
 
 .god-text {
@@ -84,7 +116,7 @@ body {
 .bottom-section {
     display: flex;
     justify-content: center;
-    padding: 0 80px 0 80px;
+    padding: 0 30%;
 }
 
 .blue-banner {
@@ -97,17 +129,11 @@ body {
     gap: 100px;
     margin-top: 80px;
     border-radius: 8px;
-    padding: 30px 60px;
+    padding: 1% 60px;
 }
 
 .white-border {
-    background-color: #3882F6;
-    border: #E5E7EB;
-    border-color: #E5E7EB;
-    /*no se ve el color del borde y no se por que hulio*/
-    border-radius: 8px;
-    cursor: pointer;
-    user-select: none;
+    border: 1px solid  #E5E7EB;
 }
 
 .white-text {
